@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anurag Kumar - Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #edebf4;
+      color: #333;
+    }
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .bio {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .social-links a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #007acc;
+    }
+    form {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+    }
+    form input, form textarea {
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background: #007acc;
+      color: white;
+      border: none;
+      padding: 0.75rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="my pic.jpg" alt="Your Photo" />
+    <h1>Anurag kumar</h1>
+    <p>Web Developer | Designer | Freelancer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p class="bio">
+      Hello! I'm a passionate developer with experience in building responsive and interactive websites. I enjoy learning new technologies and working on creative projects.
+    </p>
+
+    <h2>Social Links</h2>
+    <p class="social-links">
+      <a href="" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/anurag-kumar-b9b963383?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">LinkedIn</a>
+      <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
+    </p>
+
+    <h2>Contact Me</h2>
+    <form action="mailto:your@email.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
